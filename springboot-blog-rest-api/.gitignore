@@ -31,3 +31,33 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore target directory and files generated during build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore IDE-specific files and directories
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore VS Code specific files and directories
+.vscode/
+
