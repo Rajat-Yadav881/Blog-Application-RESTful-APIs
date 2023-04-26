@@ -17,4 +17,13 @@ this is the simple Blog application in which i had create the API
 - Spring security
 - JWT
 - AWS
-- Docker
+
+
+# PostController
+
+# CommentController
+
+# AuthenticationController
+
+
+# Schema
